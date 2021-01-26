@@ -2,13 +2,18 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div className="header">
-            <div className="logo"/>
-            <label>Home</label>
-            <label>Services</label>
-            <label>About</label>
-            <label>How It Works</label>
-            <label>Testimonials</label>
-        </div>
+        <header>
+            <div className="row d-flex align-items-center">
+                <div className="col-5">
+                    <img src="/images/logo/logo.svg" alt="logo" />
+                </div>
+                <div className="col-1"></div>
+                <div className="col-1">Home</div>
+                <div className="col-1">Services</div>
+                <div className="col-1">About</div>
+                <div className="col-1">How It Works</div>
+                <div className="col-1">Testimonials</div>
+            </div>
+        </header>
     )
 }
