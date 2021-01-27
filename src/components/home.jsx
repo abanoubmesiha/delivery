@@ -10,8 +10,9 @@ export default function Home() {
                 </div>
                 <h1>Stores Near You</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend eros ut lacus rhoncus vestibulum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend eros ut lacus rhoncus vestibulum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.
                 </p>
+                <button className="red-btn">Download App</button>
             </article>
         </main>
     )
