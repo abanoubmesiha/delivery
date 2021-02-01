@@ -2,21 +2,19 @@
 
 header
   padding-top: 5px
-  // a
-  //   margin-right: 2rem
   
 main
+  position: relative
   height: 90vh
   background-image: url("./assets/images/hero/hero-img.svg"),url("./assets/images/hero/hero-shape.svg")
   background-repeat: no-repeat, no-repeat
-  background-attachment: fixed, fixed
+  background-attachment: scroll, scroll
   background-position: 99% 50%, -5% 70%
   background-size: 45vw, 18vw
   article
-    padding-left: 15vw
-    padding-top: 25vh
-    p
-      width: 30vw
+    position: absolute
+    left: 15vw
+    top: 25vh
 
 .red-btn
   background-color: $red
@@ -24,3 +22,10 @@ main
   border-radius: 5px
   border: none
   padding: 0.6rem 1.3rem
+
+@media screen and (max-width: 768px)
+  main
+    background-position: 50% 10%, -5% 70%
+    article
+      position: absolute
+      top: 40vh
