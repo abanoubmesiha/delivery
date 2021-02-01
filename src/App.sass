@@ -1,11 +1,13 @@
+@import './assets/styles/variables';
+
 header
   padding-top: 5px
-  label
+  a
     margin-right: 2rem
   
 main
   height: 90vh
-  background-image: url("./images/hero/hero-img.svg"),url("./images/hero/hero-shape.svg")
+  background-image: url("./assets/images/hero/hero-img.svg"),url("./assets/images/hero/hero-shape.svg")
   background-repeat: no-repeat, no-repeat
   background-attachment: fixed, fixed
   background-position: 99% 50%, -5% 70%
@@ -17,8 +19,8 @@ main
       width: 30vw
 
 .red-btn
-  background-color: #ea505a
-  color: white
+  background-color: $red
+  color: $white
   border-radius: 5px
   border: none
   padding: 0.6rem 1.3rem

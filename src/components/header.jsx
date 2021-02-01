@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo/logo.svg';
+import logo from '../assets/images/logo/logo.svg';
 
 export default function Header() {
     return (
@@ -9,11 +9,11 @@ export default function Header() {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="offset-1 col">
-                    <label>Home</label>
-                    <label>Services</label>
-                    <label>About</label>
-                    <label>How It Works</label>
-                    <label>Testimonials</label>
+                    <a href="#Home">Home</a>
+                    <a href="#Services">Services</a>
+                    <a href="#About">About</a>
+                    <a href="#How">How It Works</a>
+                    <a href="#Testimonials">Testimonials</a>
                 </div>
             </div>
         </header>
