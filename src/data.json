@@ -62,5 +62,26 @@
             "img": "clothes.svg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
         }
-    ]
+    ],
+    "about": {
+        "banner": "about.svg",
+        "title": "About Us",
+        "secondTitle": "On-time Delivery and Customer Satisfaction",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore reprehenderit veniam repellendus, quia distinctio dolores quaerat ipsum eum ut quas, provident voluptate non in molestiae? Eius nemo natus esse eos.",
+        "rating": 4.8,
+        "statistics": [
+            {
+                "label": "Download",
+                "value": 1000000
+            },
+            {
+                "label": "Happy User",
+                "value": 234012
+            },
+            {
+                "label": "Reviews",
+                "value": 34123
+            }
+        ]
+    }
 }

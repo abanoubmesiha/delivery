@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../assets/styles/components/services.sass'
 
 export default function Services(props) {
     const { services } = props.data
@@ -11,7 +12,7 @@ export default function Services(props) {
                     {services.map((service, i) => (
                         <div key={i} className="col-sm-12 col-lg-4 mb-5 text-left">
                             <div className="card">
-                                <img src={require(`../assets/images/services/${service.img}`).default} className="card-img-top" alt={service.title} />
+                                <img src={require(`../../assets/images/services/${service.img}`).default} className="card-img-top" alt={service.title} />
                                 <div className="card-body">
                                     <h5 className="card-title strong">{service.title}</h5>
                                     <p className="card-text">{service.description}</p>

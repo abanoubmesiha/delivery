@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../assets/styles/components/home.sass'
 
 export default function Home(props) {
     const { home } = props.data;
