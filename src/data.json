@@ -1,5 +1,66 @@
-// {
-//     "header": {
-//         "logo" : 
-//     }
-// }
+{
+    "header": {
+        "logo" : "logo/logo.svg",
+        "navLinks": [
+            {
+                "label": "Home",
+                "id": "Home"
+            },
+            {
+                "label": "Services",
+                "id": "Services"
+            },
+            {
+                "label": "About",
+                "id": "About"
+            },
+            {
+                "label": "How It Works",
+                "id": "How"
+            },
+            {
+                "label": "Testimonials",
+                "id": "Testimonials"
+            }
+        ]
+    },
+    "home": {
+        "titleBold": "Home Delivery",
+        "afterTitle": "From",
+        "underTitle": "Stores Near You",
+        "description": "Lorem idivsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend eros ut lacus rhoncus vestibulum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.",
+        "buttonLabel": "Download App"
+    },
+    "services": [
+        {
+            "title": "Food",
+            "img": "food.svg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        },
+        {
+            "title": "Grocery",
+            "img": "grocery.svg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        },
+        {
+            "title": "Furniture",
+            "img": "furniture.svg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        },
+        {
+            "title": "Medicine",
+            "img": "medicine.svg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        },
+        {
+            "title": "Electronics",
+            "img": "electronics.svg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        },
+        {
+            "title": "Clothes",
+            "img": "clothes.svg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        }
+    ]
+}

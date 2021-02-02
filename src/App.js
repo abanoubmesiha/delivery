@@ -6,7 +6,7 @@ import data from './data.json'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <header>
         <Header data={data} />
       </header>

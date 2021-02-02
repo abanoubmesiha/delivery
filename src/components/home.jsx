@@ -1,26 +1,27 @@
 import React from 'react'
 
-export default function Home() {
+export default function Home(props) {
+    const { home } = props.data;
     return (
         <div id="Home">
             <section>
                 <div className="row">
                     <div className="col d-flex">
-                        <h1 className="strong">Home Delivery</h1>
-                        <h1>&nbsp;</h1><h1>From</h1>
+                        <h1 className="strong">{home.titleBold}</h1>
+                        <h1>&nbsp;</h1><h1>{home.afterTitle}</h1>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <h1>Stores Near You</h1>
+                        <h1>{home.underTitle}</h1>
                     </div>
                 </div>
                 <div className="row mb-5">
                     <div className="col-sm-12 col-md-6">
-                        Lorem idivsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend eros ut lacus rhoncus vestibulum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.
+                        {home.description}
                     </div>
                 </div>
-                <button className="red-btn">Download App</button>
+                <button className="red-btn">{home.buttonLabel}</button>
             </section>
         </div>
     )
