@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Home() {
     return (
-        <main>
-            <article>
+        <div id="Home">
+            <section>
                 <div className="row">
                     <div className="col d-flex">
                         <h1 className="strong">Home Delivery</h1>
@@ -21,7 +21,7 @@ export default function Home() {
                     </div>
                 </div>
                 <button className="red-btn">Download App</button>
-            </article>
-        </main>
+            </section>
+        </div>
     )
 }

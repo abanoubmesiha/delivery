@@ -1,21 +1,5 @@
 @import './assets/styles/variables';
 
-header
-  padding-top: 5px
-  
-main
-  position: relative
-  height: 90vh
-  background-image: url("./assets/images/hero/hero-img.svg"),url("./assets/images/hero/hero-shape.svg")
-  background-repeat: no-repeat, no-repeat
-  background-attachment: scroll, scroll
-  background-position: 99% 50%, -5% 70%
-  background-size: 45vw, 18vw
-  article
-    position: absolute
-    left: 15vw
-    top: 25vh
-
 .red-btn
   background-color: $red
   color: $white
@@ -23,9 +7,6 @@ main
   border: none
   padding: 0.6rem 1.3rem
 
-@media screen and (max-width: 768px)
-  main
-    background-position: 50% 10%, -5% 70%
-    article
-      position: absolute
-      top: 40vh
+@import './assets/styles/header'
+@import './assets/styles/home'
+@import './assets/styles/services'
