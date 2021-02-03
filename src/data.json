@@ -29,7 +29,8 @@
         "afterTitle": "From",
         "underTitle": "Stores Near You",
         "description": "Lorem idivsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend eros ut lacus rhoncus vestibulum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.",
-        "buttonLabel": "Download App"
+        "buttonLabel": "Download App",
+        "img": "hero-img.svg"
     },
     "services": [
         {
