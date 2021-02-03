@@ -8,7 +8,7 @@ export default function About(props) {
     return (
         <div id="About">
             <section>
-                <div className="row mx-5 p-5">
+                <div className="row mx-5">
                     <div className="col-sm-12 col-lg-6">
                         <img src={require(`../../assets/images/about/${about.banner}`).default} alt="about-banner" />
                     </div>
@@ -32,7 +32,7 @@ export default function About(props) {
                                             value = `${Math.round(value)}K+` 
                                         } 
                                         return (
-                                        <div className={`col-sm-12 col-lg-${Math.round(12/length)} ${length-1 === i?'':'border-right'}
+                                        <div className={`col-sm-12 col-lg-${Math.round(12/length)} ${length-1 === i?'':'border-after'}
                                          d-flex justify-content-center`}>
                                             <div>
                                                 <h3 className="text-white strong">{value}</h3>
