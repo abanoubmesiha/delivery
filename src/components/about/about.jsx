@@ -34,11 +34,13 @@ export default function About(props) {
                                                 value = `${Math.round(value)}K+` 
                                             } 
                                             return (
-                                            <div className={`col-sm-12 col-lg-${Math.round(12/length)} ${length-1 === i?'':'border-after'}
-                                            d-flex justify-content-center`}>
-                                                <div>
+                                            <div className={
+                                                `col-sm-12 col-lg-${Math.round(12/length)} ${length-1 === i?'':'border-after'} ` +
+                                                "d-flex justify-content-center align-items-center"
+                                                }>
+                                                <div className="data-square">
                                                     <h3 className="text-white strong">{value}</h3>
-                                                    <h6 className="text-white strong">{data.label}</h6>
+                                                    <h6 className="text-white strong m-0">{data.label}</h6>
                                                 </div>
                                             </div>
                                         )})}
