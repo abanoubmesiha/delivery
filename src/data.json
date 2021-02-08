@@ -84,5 +84,23 @@
                 "value": 34123
             }
         ]
-    }
+    },
+    "howSections": [
+        {
+            "banner": "delivery.svg",
+            "title": "Fast Delivery",
+            "secondTitle": "Order Now, Recieve Within 30mins",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore reprehenderit veniam repellendus, quia distinctio dolores quaerat ipsum eum ut quas, provident voluptate non in molestiae? Eius nemo natus esse eos.",
+            "download": true,
+            "inverse": true
+        },
+        {
+            "banner": "received.svg",
+            "title": "Contactless Delivery",
+            "secondTitle": "On-time Delivery to your Doorstep",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore reprehenderit veniam repellendus, quia distinctio dolores quaerat ipsum eum ut quas, provident voluptate non in molestiae? Eius nemo natus esse eos.",
+            "download": false,
+            "inverse": false
+        }
+    ]   
 }

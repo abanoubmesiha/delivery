@@ -6,13 +6,13 @@ import '../../assets/styles/components/about.sass'
 export default function About(props) {
     const { about } = props.data
     return (
-        <div id="About">
+        <div id="About" className="mb-10">
             <section>
             <div className="row d-flex justify-content-center">
                 <div className="col-sm-10 col-lg-9">
                     <div className="row">
-                        <div className="col-sm-12 col-lg-6">
-                            <img src={require(`../../assets/images/about/${about.banner}`).default} alt="about-banner" />
+                        <div className="col-sm-12 col-lg-6 mb-4">
+                            <img className="banner" src={require(`../../assets/images/about/${about.banner}`).default} alt="about-banner" />
                         </div>
                         <div className="col-sm-12 col-lg-6">
                             <h5 className="strong mb-4">{about.title}</h5>

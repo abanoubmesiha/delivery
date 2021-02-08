@@ -4,7 +4,7 @@ import '../../assets/styles/components/home.sass'
 export default function Home(props) {
     const { home } = props.data;
     return (
-        <div id="Home">
+        <div id="Home" className="mb-5">
             <div className="row d-flex align-items-center with-leaf">
                 <div className="col-sm-12 col-lg-6 p-2">
                     <div className="row">

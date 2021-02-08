@@ -4,7 +4,7 @@ import '../../assets/styles/components/services.sass'
 export default function Services(props) {
     const { services } = props.data
     return (
-        <div id="Services">
+        <div id="Services" className="mb-10">
             <section>
                 <h5 className="strong text-center">Delivery Services</h5>
                 <h2 className="strong text-center mb-5">All Essentials You Need</h2>
