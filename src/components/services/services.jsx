@@ -6,7 +6,7 @@ export default function Services(props) {
     return (
         <div id="Services" className="mb-10">
             <section>
-                <h5 className="strong text-center">Delivery Services</h5>
+                <h5 className="strong text-center mb-3">Delivery Services</h5>
                 <h2 className="strong text-center mb-5">All Essentials You Need</h2>
                 <div className="row d-flex justify-content-center">
                     <div className="col-sm-11 col-lg-9">

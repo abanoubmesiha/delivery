@@ -102,5 +102,49 @@
             "download": false,
             "inverse": false
         }
-    ]   
+    ],
+    "testimonials": [
+        {
+            "rating": 5,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "img": "testimonial-1.png",
+            "name": "Ena Shah",
+            "title": "Teacher at Abc School"
+        },
+        {
+            "rating": 4,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "img": "testimonial-2.png",
+            "name": "Mrs. Gosh",
+            "title": "Actor"
+        },
+        {
+            "rating": 5,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "img": "testimonial-2.png",
+            "name": "John Doe",
+            "title": "Model"
+        },
+        {
+            "rating": 3,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "img": "testimonial-2.png",
+            "name": "Jonathan Smith",
+            "title": "Creative Designer"
+        },
+        {
+            "rating": 3,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "img": "testimonial-2.png",
+            "name": "Sara A. K.",
+            "title": "Heroine"
+        },
+        {
+            "rating": 5,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+            "img": "testimonial-2.png",
+            "name": "David Smith",
+            "title": "Businessman"
+        }
+    ]
 }
