@@ -6,7 +6,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 export default function Testimonials(props) {
     const { testimonials } = props
     return (
-        <div id="Testimonials" className="mb-10">
+        <div id="Testimonials" className="mb-5">
             <section>
                 <h5 className="strong text-center mb-3">Testimonials</h5>
                 <h2 className="strong text-center mb-5">What Out Users Says</h2>
