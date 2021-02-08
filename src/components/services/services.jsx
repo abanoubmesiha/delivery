@@ -2,7 +2,7 @@ import React from 'react'
 import '../../assets/styles/components/services.sass'
 
 export default function Services(props) {
-    const { services } = props.data
+    const { services } = props
     return (
         <div id="Services" className="mb-10">
             <section>

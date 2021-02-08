@@ -2,7 +2,7 @@ import React from 'react'
 import '../../assets/styles/components/home.sass'
 
 export default function Home(props) {
-    const { home } = props.data;
+    const { home } = props;
     return (
         <div id="Home" className="mb-5">
             <div className="row d-flex align-items-center with-leaf">

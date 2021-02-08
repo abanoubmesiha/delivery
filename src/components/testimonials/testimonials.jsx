@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Testimonials(props) {
-    const { testimonials } = props.data
+    const { testimonials } = props
     return (
         <div id="Testimonials" className="mb-10">
             <section>

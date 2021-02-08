@@ -2,7 +2,7 @@ import React from 'react'
 import '../../assets/styles/components/header.sass'
 
 export default function Header(props) {
-    const { header } = props.data;
+    const { header } = props;
     return (
         <div className="row d-flex align-items-center justify-content-center m-0">
             <div className="col-sm-12 col-lg-5 text-center">

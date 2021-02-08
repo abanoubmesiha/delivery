@@ -146,5 +146,23 @@
             "name": "David Smith",
             "title": "Businessman"
         }
+    ],
+    "partners": [
+        {
+            "name": "Linelcons",
+            "img": "partner-1.png"
+        },
+        {
+            "name": "UI deck",
+            "img": "partner-2.png"
+        },
+        {
+            "name": "PageBulb",
+            "img": "partner-3.png"
+        },
+        {
+            "name": "Gray Grids",
+            "img": "partner-4.png"
+        }
     ]
 }

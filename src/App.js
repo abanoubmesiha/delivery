@@ -11,14 +11,15 @@ function App() {
   return (
     <div className="App container-fluid">
       <header>
-        <Header data={data} />
+        <Header header={data.header} />
       </header>
       <main>
-        <Home data={data} />
-        <Services data={data} />
-        <About data={data} />
+        <Home home={data.home} />
+        <Services services={data.services} />
+        <About about={data.about} />
         {data.howSections.map((how, i)=><How key={i} {...how} />)}
-        <Testimonials data={data} />
+        <Testimonials testimonials={data.testimonials} />
+        {/* <Partners data={data} /> */}
       </main>
       <footer>
 

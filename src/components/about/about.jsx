@@ -4,7 +4,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 import '../../assets/styles/components/about.sass'
 
 export default function About(props) {
-    const { about } = props.data
+    const { about } = props
     return (
         <div id="About" className="mb-10">
             <section>
