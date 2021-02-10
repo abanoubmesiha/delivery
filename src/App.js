@@ -21,7 +21,7 @@ function App() {
         <Testimonials testimonials={data.testimonials} />
         <Partners partners={data.partners} />
       </main>
-      <Footer header={data.footer} />
+      <Footer footer={data.footer} />
     </div>
   );
 }

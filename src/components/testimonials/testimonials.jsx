@@ -1,7 +1,6 @@
 import React from 'react'
+import {AiFillStar} from 'react-icons/all'
 import '../../assets/styles/components/testimonials.sass'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function Testimonials(props) {
     const { testimonials } = props
@@ -19,7 +18,7 @@ export default function Testimonials(props) {
                                         <div className="card-body">
                                             <h5 className="card-title">
                                                 {Array(Math.round(testimonial.rating))
-                                                    .fill(<FontAwesomeIcon icon={faStar} size="xs" />)
+                                                    .fill(<AiFillStar />)
                                                     .map((icon, i)=><React.Fragment key={i}>{icon}</React.Fragment>)}
                                             </h5>
                                             <p className="card-text">{testimonial.description}</p>

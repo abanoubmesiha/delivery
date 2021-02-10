@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import {AiFillStar} from 'react-icons/all'
 import '../../assets/styles/components/about.sass'
 
 export default function About(props) {
@@ -18,10 +17,12 @@ export default function About(props) {
                             <h5 className="strong mb-4">{about.title}</h5>
                             <h2 className="strong mb-4">{about.secondTitle}</h2>
                             <p>{about.description}</p>
-                            <h6 className="strong d-inline">Rating {about.rating}</h6>
-                            {Array(Math.round(about.rating))
-                                .fill(<FontAwesomeIcon icon={faStar} />)
-                                .map((icon, i)=><React.Fragment key={i}>{icon}</React.Fragment>)}
+                            <div className="d-flex align-items-center">
+                                <h6 className="strong">Rating {about.rating}</h6>
+                                {Array(Math.round(about.rating))
+                                    .fill(<AiFillStar size="1.5rem" />)
+                                    .map((icon, i)=><React.Fragment key={i}>{icon}</React.Fragment>)}
+                            </div>
                             <div className="row mt-4 mx-0">
                                 <div className="col red-square">
                                     <div className="row">
