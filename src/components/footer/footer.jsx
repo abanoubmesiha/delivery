@@ -1,12 +1,12 @@
 import React from 'react'
-import { RiGooglePlayLine, AiOutlineApple, BsChevronCompactUp } from 'react-icons/all'
+import { RiGooglePlayLine, AiOutlineApple } from 'react-icons/all'
 import '../../assets/styles/components/footer.sass'
 
 export default function Footer(props) {
     const { footer } = props;
     return (
         <footer id="Footer" className="row bg-dark delivery-man">
-            <div className="col-sm-11 col-lg-auto logo-section">
+            <div className="col-sm-12 col-lg-auto logo-section">
                 <div className="row mb-2">
                     <div className="col">
                         <img
