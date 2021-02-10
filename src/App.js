@@ -2,18 +2,17 @@ import './App.sass';
 import Header from './components/header/header';
 import Home from './components/home/home';
 import Services from './components/services/services';
-import Testimonials from './components/testimonials/testimonials';
-import Partners from './components/partners/partners';
 import About from './components/about/about';
 import How from './components/how/how';
+import Testimonials from './components/testimonials/testimonials';
+import Partners from './components/partners/partners';
+import Footer from './components/footer/footer';
 import data from './data.json'
 
 function App() {
   return (
     <div className="App container-fluid">
-      <header>
-        <Header header={data.header} />
-      </header>
+      <Header header={data.header} />
       <main>
         <Home home={data.home} />
         <Services services={data.services} />
@@ -22,9 +21,7 @@ function App() {
         <Testimonials testimonials={data.testimonials} />
         <Partners partners={data.partners} />
       </main>
-      <footer>
-
-      </footer>
+      <Footer header={data.footer} />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 {
     "header": {
-        "logo" : "logo/logo.svg",
+        "logo" : "logo.svg",
         "navLinks": [
             {
                 "label": "Home",
@@ -164,5 +164,64 @@
             "name": "Gray Grids",
             "img": "partner-4.svg"
         }
-    ]
+    ],
+    "footer": {
+        "leftImg": "delivery-man.svg",
+        "rightImg": "flower.svg",
+        "logo": "logo.svg",
+        "aboutUsLinks": [
+            {
+                "label": "Home",
+                "href": "#"
+            },
+            {
+                "label": "Service",
+                "href": "#"
+            },
+            {
+                "label": "About Us",
+                "href": "#"
+            },
+            {
+                "label": "Contact",
+                "href": "#"
+            }
+        ],
+        "aboutLinks": [
+            {
+                "label": "Partners",
+                "href": "#"
+            },
+            {
+                "label": "Terms of Service",
+                "href": "#"
+            },
+            {
+                "label": "Privacy Policy",
+                "href": "#"
+            },
+            {
+                "label": "Refund Policy",
+                "href": "#"
+            }
+        ],
+        "supportLinks": [
+            {
+                "label": "Open Ticket",
+                "href": "#"
+            },
+            {
+                "label": "Comumnity",
+                "href": "#"
+            },
+            {
+                "label": "Return Policy",
+                "href": "#"
+            },
+            {
+                "label": "Accessibility",
+                "href": "#"
+            }
+        ]
+    }
 }

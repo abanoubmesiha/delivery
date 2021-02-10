@@ -30,7 +30,7 @@ export default function Home(props) {
                     </div>
                 </div>
                 <div className="col-sm-12 col-lg-6 py-5">
-                    <img src={require(`../../assets/images/hero/${home.img}`).default} alt="home" />
+                    <img src={require(`../../assets/images/home/${home.img}`).default} alt="home" />
                 </div>
             </div>
         </div>

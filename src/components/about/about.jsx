@@ -34,7 +34,7 @@ export default function About(props) {
                                                 value = `${Math.round(value)}K+` 
                                             } 
                                             return (
-                                            <div className={
+                                            <div key={i} className={
                                                 `col-sm-12 col-lg-${Math.round(12/length)} ${length-1 === i?'':'border-after'} ` +
                                                 "d-flex justify-content-center align-items-center"
                                                 }>
