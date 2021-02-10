@@ -6,7 +6,7 @@ export default function Home(props) {
     return (
         <div id="Home" className="mb-5">
             <div className="row d-flex align-items-center with-leaf">
-                <div className="col-sm-12 col-lg-6 p-2">
+                <div className="col-sm-12 col-lg-6 p-3">
                     <div className="row">
                         <div className="offset-sm-1 offset-lg-3 col d-flex">
                             <h1 className="strong">{home.titleBold}</h1>

@@ -1,0 +1,16 @@
+$utilities: () !default;
+$utilities: map-merge(
+    ('margins-top': (
+        property: padding, 
+        class: 'mt',
+        values: (
+            6: 6rem,
+            7: 7rem,
+            8: 8rem,
+            9: 9rem,
+            10: 10rem,
+        )
+    )
+        ),
+        $utilities
+)
