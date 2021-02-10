@@ -15,12 +15,14 @@ export default function Testimonials(props) {
                         <div className="row">
                             {testimonials.map((testimonial, i) => (
                                 <div key={i} className="col-sm-12 col-lg-4 mb-3 text-left">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">
-                                                {Array(Math.round(testimonial.rating)).fill(<FontAwesomeIcon icon={faStar} size="xs" />)}
+                                    <div className="card">
+                                        <div className="card-body">
+                                            <h5 className="card-title">
+                                                {Array(Math.round(testimonial.rating))
+                                                    .fill(<FontAwesomeIcon icon={faStar} size="xs" />)
+                                                    .map((icon, i)=><React.Fragment key={i}>{icon}</React.Fragment>)}
                                             </h5>
-                                            <p class="card-text">{testimonial.description}</p>
+                                            <p className="card-text">{testimonial.description}</p>
                                         </div>
                                         <div className="row">
                                             <div className="col-3">

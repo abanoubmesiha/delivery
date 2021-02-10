@@ -3,7 +3,7 @@ import '../../assets/styles/components/footer.sass'
 
 export default function Footer(props) {
     const { footer } = props;
-    console.log(footer.leftImg)
+    console.log(footer)
     return (
         <footer className="row">
             <div className="col">

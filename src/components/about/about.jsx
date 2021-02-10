@@ -19,7 +19,9 @@ export default function About(props) {
                             <h2 className="strong mb-4">{about.secondTitle}</h2>
                             <p>{about.description}</p>
                             <h6 className="strong d-inline">Rating {about.rating}</h6>
-                            {Array(Math.round(about.rating)).fill(<FontAwesomeIcon icon={faStar} />)}
+                            {Array(Math.round(about.rating))
+                                .fill(<FontAwesomeIcon icon={faStar} />)
+                                .map((icon, i)=><React.Fragment key={i}>{icon}</React.Fragment>)}
                             <div className="row mt-4 mx-0">
                                 <div className="col red-square">
                                     <div className="row">
