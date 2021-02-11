@@ -23,7 +23,7 @@ export default function Footer(props) {
     const { footer } = props;
     return (
         <footer id="Footer" className="row bg-dark images d-flex align-items-center">
-            <div className="col-sm-12 col-lg-auto logo-section mb-3">
+            <div className="col-sm-12 col-lg-auto logo-section">
                 <div className="row mb-2">
                     <div className="col">
                         <img
