@@ -23,7 +23,7 @@ export default function Testimonials(props) {
                                             </h5>
                                             <p className="card-text">{testimonial.description}</p>
                                         </div>
-                                        <div className="row">
+                                        <div className="row d-flex align-items-center">
                                             <div className="col-3">
                                                 <img src={require(`../../assets/images/testimonials/${testimonial.img}`).default} alt={testimonial.title} />
                                             </div>
